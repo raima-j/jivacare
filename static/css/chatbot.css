@@ -1,0 +1,134 @@
+/* General Styling */
+body {
+    font-family: Georgia, serif;
+    background-color: #e0f4ea;
+    /* Light green background */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Chat Container */
+.chat-container {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    /* Softer shadow for elegance */
+    border-radius: 10px;
+    margin-top: 50px;
+    border: 1px solid #b6e3cd;
+    /* Green border */
+}
+
+h2 {
+    color: #2f6650;
+    /* Dark green for title */
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Chat Box */
+.chat-box {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #b6e3cd;
+    padding: 10px;
+    background: #f9fff6;
+    /* Light greenish background for chat box */
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Chat Messages */
+.chat-message {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
+    display: inline-block;
+    font-size: 15px;
+}
+
+/* User Message */
+.user {
+    background: #daf9d6;
+    /* Soft green for user messages */
+    text-align: right;
+    float: right;
+    clear: both;
+    align-self: flex-end;
+    border: 1px solid #c2e8b8;
+}
+
+/* Bot Message */
+.bot {
+    background: #ececec;
+    /* Neutral background for bot */
+    text-align: left;
+    float: left;
+    clear: both;
+    align-self: flex-start;
+    border: 1px solid #d3d3d3;
+}
+
+/* Input Box */
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #b6e3cd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    background-color: #f9fff6;
+    /* Slight greenish tint for input */
+}
+
+/* Send Button */
+button {
+    padding: 10px 15px;
+    background: #2f6650;
+    /* Dark green button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background: #256347;
+    /* Darker green on hover */
+}
+
+/* Logout Link */
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #2f6650;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #256347;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .chat-container {
+        width: 90%;
+    }
+
+    input[type="text"] {
+        width: 60%;
+    }
+}
