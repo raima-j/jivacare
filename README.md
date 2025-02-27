@@ -1,4 +1,4 @@
-"# Jivacare" 
+
 📌 JIVACARE - Final Year B.Tech CSE Project
 JIVACARE is a Flask-based web application designed for disease prediction and home remedy recommendations. It utilizes Logistic Regression (LR) as a machine learning model and integrates MySQL, HTML, CSS, and Flask for a full-stack implementation.
 
